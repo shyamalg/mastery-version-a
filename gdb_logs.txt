@@ -1,0 +1,10 @@
+4  r basic_add.s
+    5  r basic_div.s
+    6  r basic_mul.s
+    7  r err_ops.s
+    8  r multi_op_err.s
+    9  q
+   10  r basic_sub.s
+   11  show commands
+   12  q
+   13  show commands

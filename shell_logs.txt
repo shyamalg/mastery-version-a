@@ -1,0 +1,500 @@
+   27  git add .
+   28  git commit -m "constant coalescing"
+   29  git push
+   30  git status
+   31  make all
+   32  driver.py
+   33  make all
+   34  driver.py
+   35  make all
+   36  driver.py
+   37  make all
+   38  driver.py
+   39  make all
+   40  driver.py
+   41  make all
+   42  driver.py
+   43  make all
+   44  runner -r traces/mytest.rep
+   45  clear
+   46  runner -r traces/mytest.rep
+   47  clear
+   48  make all
+   49  runner -r traces/mytest.rep
+   50  clear
+   51  make all
+   52  clear
+   53  runner -r traces/mytest.rep
+   54  clear
+   55  make all
+   56  runner -r traces/mytest.rep
+   57  clear
+   58  make all
+   59  runner -r traces/mytest.rep
+   60  clear
+   61  make all
+   62  runner -r traces/mytest.rep
+   63  make all
+   64  clear
+   65  runner -r traces/mytest.rep
+   66  make all
+   67  clear
+   68  runner -r traces/mytest.rep
+   69  clear
+   70  make all
+   71  runner -r traces/mytest.rep
+   72  make all
+   73  clear
+   74  runner -r traces/mytest.rep
+   75  make all
+   76  make all
+   77  clear
+   78  runner -r traces/mytest.rep
+   79  make all
+   80  make all
+   81  runner -r traces/mytest.rep
+   82  make all
+   83  runner -r traces/mytest.rep
+   84  make all
+   85  Make all
+   86  make all
+   87  clear
+   88  runner -r traces/mytest.rep
+   89  clear
+   90  make all
+   91  runner -r traces/mytest.rep
+   92  clear
+   93  make all
+   94  cler
+   95  clear
+   96  runner -r traces/mytest.rep
+   97  make all
+   98  clear
+   99  runner -r traces/mytest.rep
+  100  make allA
+  101  make all
+  102  clear
+  103  runner -r traces/mytest.rep
+  104  clear
+  105  make all
+  106  runner -r traces/mytest.rep
+  107  clear
+  108  make all
+  109  clear
+  110  runner -r traces/mytest.rep
+  111  make all
+  112  clear
+  113  runner -r traces/mytest.rep
+  114  clear
+  115  make all
+  116  runner -r traces/mytest.rep
+  117  clear
+  118  driver.py
+  119  git add .
+  120  git commit -m "added backwards coalescing (very time inefficient)"
+  121  git push
+  122  git add .
+  123  git commit -m "added backwards coalescing (very time inefficient)"
+  124  git push
+  125  clear
+  126  driver.py
+  127  make all
+  128  driver.py
+  129  clear
+  130  make all
+  131  driver.py
+  132  make all
+  133  driver.py
+  134  make all
+  135  driver.py
+  136  make all
+  137  driver.py
+  138  clear
+  139  make all
+  140  runner -r traces/mytest.rep
+  141  runner -r mytest.rep
+  142  make all
+  143  runner -r mytest.rep
+  144  make all
+  145  runner -r mytest.rep
+  146  make all
+  147  runner -r mytest.rep
+  148  make clear
+  149  make all
+  150  clear
+  151  driver.py
+  152  make all
+  153  driver.py
+  154  make all
+  155  runner -r mytest.rep
+  156  make all
+  157  runner -r mytest.rep
+  158  make all
+  159  driver.py
+  160  make all
+  161  driver.py
+  162  git add .
+  163  git commit "omptiomized initial extend for coalescing test cases"
+  164  git commit -m "omptiomized initial extend for coalescing test cases"
+  165  git push
+  166  make all
+  167  driver.py
+  168  make all
+  169  driver.py
+  170  make all
+  171  driver.py
+  172  make all
+  173  driver.py
+  174  git branch "footer implementation"
+  175  git add .
+  176  git commit -m "edited coalesce a bit but same logic"
+  177  git push
+  178  clear
+  179  git branch "footer-implmentation"
+  180  git branch
+  181  git checkout footer-implementation
+  182  git branch -d footer-impmentation
+  183  git branch -d footer-implmentation
+  184  git branch
+  185  git branch "footer-implementation"
+  186  git branch
+  187  git checkout footer-implementation
+  188  clear
+  189  make all
+  190  make all
+  191  driver.py
+  192  git add .
+  193  git commit -m "added footer to struct and set its values (coalesce not implemented yet"
+  194  git push
+  195  git push --set-upstream origin footer-implementation
+  196  git checkout main
+  197  make all
+  198  driver.py
+  199  git checkout footer-implementation
+  200  git status
+  201  git checkout footer-implementation
+  202  git add .
+  203  git commit -a
+  204  git add .
+  205  git commit -m "nothing changed"
+  206  git push
+  207  git checkout footer-implementation
+  208  make all
+  209  make all
+  210  driver.py
+  211  make clean
+  212  make debug
+  213  gdb runner
+  214  make all
+  215  make all
+  216  runner -r traces/short1.rep
+  217  make all
+  218  runner -r traces/short1.rep
+  219  make clean
+  220  make debug
+  221  gdb
+  222  gdb runner
+  223  make all
+  224  clear
+  225  runner -r traces/short1.rep
+  226  make all
+  227  runner -r traces/short1.rep
+  228  make all
+  229  runner -r traces/short1.rep
+  230  runner -r traces/binary.rep
+  231  make all
+  232  runner -r traces/binary.rep
+  233  make all
+  234  runner -r traces/binary.rep
+  235  make all
+  236  runner -r traces/binary.rep
+  237  make all
+  238  runner -r traces/binary.rep
+  239  make all
+  240  runner -r traces/binary.rep
+  241  make all
+  242  runner -r traces/binary.rep
+  243  make all
+  244  runner -r traces/binary.rep
+  245  make all
+  246  runner -r traces/binary.rep
+  247  make all
+  248  runner -r traces/binary.rep
+  249  make all
+  250  runner -r traces/binary.rep
+  251  make all
+  252  runner -r traces/binary.rep
+  253  clear
+  254  make all
+  255  runner -r traces/binary.rep
+  256  make all
+  257  make all
+  258  make all
+  259  clear
+  260  runner -r traces/binary.rep
+  261  make all
+  262  runner -r traces/binary.rep
+  263  clear
+  264  make all
+  265  make all
+  266  clear
+  267  runner -r traces/binary.rep
+  268  make all
+  269  make all
+  270  make all
+  271  clear
+  272  runner -r traces/binary.rep
+  273  make all
+  274  clear
+  275  runner -r traces/binary.rep
+  276  clear
+  277  make all
+  278  runner -r traces/binary.rep
+  279  make all
+  280  clear
+  281  runner -r traces/binary.rep
+  282  clear
+  283  runner -r traces/short1.rep
+  284  clear
+  285  runner -r mytest.rep
+  286  make all
+  287  clear
+  288  runner -r mytest.rep
+  289  make all
+  290  runner -r mytest.rep
+  291  clear
+  292  runner -r mytest.rep
+  293  clear
+  294  make all
+  295  clear
+  296  runner -r mytest.rep
+  297  make all
+  298  clear
+  299  runner -r mytest.rep
+  300  make all
+  301  clear
+  302  runner -r mytest.rep
+  303  make all
+  304  clear
+  305  runner -r mytest.rep
+  306  make all
+  307  clearA
+  308  make all
+  309  runner -r mytest.rep
+  310  make all
+  311  clear
+  312  runner -r mytest.rep
+  313  make all
+  314  clear
+  315  make all
+  316  runner -r mytest.rep
+  317  make all
+  318  clear
+  319  runner -r mytest.rep
+  320  make all
+  321  runner -r mytest.rep
+  322  make all
+  323  clear
+  324  runner -r mytest.rep
+  325  clear
+  326  git add .
+  327  git commit -m "it don't work"
+  328  git push
+  329  git checkout main
+  330  clear
+  331  make all
+  332  driver.py
+  333  make all
+  334  driver.py
+  335  make all
+  336  driver.py
+  337  python3 optimize.py
+  338  make all
+  339  driver.py
+  340  make all
+  341  driver.py
+  342  make all
+  343  git add .
+  344  git push -m "final thing"
+  345  git push
+  346  git status
+  347  git add .
+  348  git commit -m "final one"
+  349  git push
+  350  git status
+  351  make all;
+  352  driver.py
+  353  make all
+  354  driver.py
+  355  make all
+  356  driver.py
+  357  make all
+  358  driver.py
+  359  clear
+  360  git checkout footer-implementation
+  361  git add .
+  362  git commit -m "no change"
+  363  git push
+  364  git checkout footer-implementation
+  365  clear
+  366  driver.py
+  367  clear
+  368  runner -r mytest.rep
+  369  malke all
+  370  make all
+  371  make all
+  372  make all
+  373  make all
+  374  clear
+  375  make all
+  376  git add .
+  377  git commit -m "no work"
+  378  git push
+  379  git push
+  380  git checkout main
+  381  make all
+  382  driver.py
+  383  git push
+  384  git checkout footer-implementation
+  385  git add .
+  386  git commit -m "same"
+  387  git push
+  388  git checkout footer-implementation
+  389  clear
+  390  make all
+  391  runner -r mytest.rep
+  392  make all
+  393  clear
+  394  runner -r mytest.rep
+  395  make all
+  396  clear
+  397  runner -r mytest.rep
+  398  make all
+  399  clear
+  400  runner -r mytest.rep
+  401  make all
+  402  clear
+  403  runner -r mytest.rep
+  404  make all
+  405  clear
+  406  runner -r mytest.rep
+  407  make all
+  408  make all
+  409  clear
+  410  runner -r mytest.rep
+  411  make all
+  412  make all
+  413  clear
+  414  runner -r mytest.rep
+  415  make all
+  416  clear
+  417  runner -r mytest.rep
+  418  vi gdbinit
+  419  git clone https://github.com/CS429-SP2025/shared-repo-version-f-shyamalg.git
+  420  make debug
+  421  make clean
+  422  ls
+  423  cd shared-repo-version-f-shyamalg
+  424  make clean
+  425  maek debug
+  426  make debug
+  427  make check
+  428  gdb
+  429  gdb runner
+  430  ls
+  431  run testcases/short1.rep
+  432  runner -r testcases/short1.rep
+  433  short1.rep
+  434  gdb
+  435  make all
+  436  make clean
+  437  make debug
+  438  gdb
+  439  gdb status
+  440  make
+  441  make clean
+  442  make debug
+  443  gdb
+  444  history > shell_logs.txt
+  445  gdbhistory
+  446  ./.gdbhistory
+  447  git lfs ls-files
+  448  git add .
+  449  git commit -m "finsihed"
+  450  git push
+  451  cd
+  452  ls
+  453  cd--
+  454  cd..
+  455  cd//
+  456  cd~/.ssh
+  457  ls
+  458  cd .ssh
+  459  ls
+  460  rm shared-repo-version-f-shyamalg
+  461  rm -rf shared-repo-version-f-shyamalg
+  462  ls
+  463  ls
+  464  logout
+  465  quit
+  466  cd
+  467  git clone https://github.com/CS429-SP2025/se-lab-bailey-shyamal.git
+  468  ls
+  469  cd se-lab-bailey-shyamal/
+  470  git pull main
+  471  git status
+  472  git clone https://github.com/CS429-SP2025/se-lab-bailey-shyamal.git
+  473  cd
+  474  ls
+  475  cd se-lab-bailey-shyamal/
+  476  ls
+  477  rm se-lab-bailey-shyamal/
+  478  rm se-lab-bailey-shyamal
+  479  rmdir se-lab-bailey-shyamal/
+  480  rm -rf se-lab-bailey-shyamal/
+  481  ls
+  482  touch ~./gdbinit
+  483  ls -a
+  484  vim ~./gdbinit
+  485  ls -a
+  486  bash
+  487  bash
+  488  touch ./gdbinit
+  489  ls -a
+  490  ls
+  491  rm gdbinit
+  492  ls
+  493  touch /.gdbinit
+  494  touch ~/.gdbinit
+  495  ls -a
+  496  echo "set history save on" > ~/.gdbinit
+  497  cat ~/.gdbinit
+  498  git clone https://github.com/shyamalg/mastery-version-a.git
+  499  ls
+  500  cd mastery-version-a/
+  501  mini_ci
+  502  make
+  503  mini_ci
+  504  make test
+  505  make tests
+  506  mini_ci err_ops.s
+  507  mini_ci_reference err_ops.s
+  508  mini_ci err_ops2.s
+  509  gdb mini_ci
+  510  make
+  511  make debug
+  512  make tets
+  513  make tests
+  514  make clean
+  515  make check
+  516  mini_ci basic_add.s
+  517  mini_ci basic.sub.s
+  518  make clean
+  519  make debugh
+  520  make debug
+  521  gdb mini_ci
+  522  make check
+  523  make clean
+  524  make debug
+  525  gdb mini_ci
+  526  history > shell_logs.txt
